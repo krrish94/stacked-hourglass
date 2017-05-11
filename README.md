@@ -19,3 +19,6 @@ Specifically, each line contains one input instance in the following format
 ```
 Here, `x y w h` are the `(x,y)` coordinates of the top left corner, width, and height respectively of the bounding box containing a car in the original image dimensions. The script takes care of the necessary cropping, scaling, transformations.
 The script writes output (detected keypoints and confidence scores) to `results.txt`. These keypoints are according to the `64 x 64` cropped image size. These will have to be scaled to the original image size as per your requirements.
+
+
+The trained model is available here https://www.dropbox.com/s/v4f770ebdenia0g/hg-binary-trained-singleGPU.t7?dl=0
